@@ -2,23 +2,16 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "composite": true,
     "outDir": "./out-tsc/app",
-    "declaration": true,
-    "declarationMap": true,
-    "resolveJsonModule": true
+    "types": []
   },
   "files": [
     "src/main.ts"
   ],
   "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "package.json"
+    "src/**/*.d.ts"
   ],
-  "exclude": [
-    "src/**/*.spec.ts"
-  ],
+  "exclude": [],
   "angularCompilerOptions": {
     "extendedDiagnostics": {
       "checks": {
