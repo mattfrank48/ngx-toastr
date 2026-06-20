@@ -26,7 +26,7 @@ export default defineConfig(
       sourceType: "module",
       ecmaVersion: 2024,
       parserOptions: {
-        projectService: true,
+        project: ['tsconfig.json', 'tsconfig.spec.json'],
         createDefaultProgram: true,
       },
     },
